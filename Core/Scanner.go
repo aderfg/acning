@@ -2,9 +2,9 @@ package Core
 
 import (
 	"fmt"
+	"github.com/aderfg/acning/Common"
+	"github.com/aderfg/acning/WebScan/lib"
 	"github.com/schollz/progressbar/v3"
-	"github.com/shadow1ng/fscan/Common"
-	"github.com/shadow1ng/fscan/WebScan/lib"
 	"strconv"
 	"strings"
 	"sync"

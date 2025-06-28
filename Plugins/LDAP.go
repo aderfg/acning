@@ -3,8 +3,8 @@ package Plugins
 import (
 	"context"
 	"fmt"
+	"github.com/aderfg/acning/Common"
 	"github.com/go-ldap/ldap/v3"
-	"github.com/shadow1ng/fscan/Common"
 	"net"
 	"strings"
 	"sync"

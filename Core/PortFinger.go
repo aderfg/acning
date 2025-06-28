@@ -4,7 +4,7 @@ import (
 	_ "embed"
 	"encoding/hex"
 	"fmt"
-	"github.com/shadow1ng/fscan/Common"
+	"github.com/aderfg/acning/Common"
 	"regexp"
 	"strconv"
 	"strings"
@@ -629,7 +629,7 @@ func (m *Match) MatchPattern(response []byte) bool {
 		Common.LogDebug(fmt.Sprintf("匹配成功，找到 %d 个匹配项", len(foundItems)))
 		return true
 	}
-	
+
 	return false
 }
 

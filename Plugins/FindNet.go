@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"encoding/hex"
 	"fmt"
-	"github.com/shadow1ng/fscan/Common"
+	"github.com/aderfg/acning/Common"
 	"net"
 	"regexp"
 	"strconv"

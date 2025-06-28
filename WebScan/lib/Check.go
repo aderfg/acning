@@ -3,9 +3,9 @@ package lib
 import (
 	"crypto/md5"
 	"fmt"
+	"github.com/aderfg/acning/Common"
+	"github.com/aderfg/acning/WebScan/info"
 	"github.com/google/cel-go/cel"
-	"github.com/shadow1ng/fscan/Common"
-	"github.com/shadow1ng/fscan/WebScan/info"
 	"math/rand"
 	"net/http"
 	"net/url"

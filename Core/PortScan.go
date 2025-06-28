@@ -3,7 +3,7 @@ package Core
 import (
 	"context"
 	"fmt"
-	"github.com/shadow1ng/fscan/Common"
+	"github.com/aderfg/acning/Common"
 	"golang.org/x/sync/errgroup"
 	"golang.org/x/sync/semaphore"
 	"net"

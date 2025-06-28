@@ -3,7 +3,7 @@ package Core
 import (
 	"bytes"
 	"fmt"
-	"github.com/shadow1ng/fscan/Common"
+	"github.com/aderfg/acning/Common"
 	"golang.org/x/net/icmp"
 	"net"
 	"os/exec"

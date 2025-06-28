@@ -14,9 +14,9 @@ import (
 	"time"
 	"unicode/utf8"
 
-	"github.com/shadow1ng/fscan/Common"
-	"github.com/shadow1ng/fscan/WebScan"
-	"github.com/shadow1ng/fscan/WebScan/lib"
+	"github.com/aderfg/acning/Common"
+	"github.com/aderfg/acning/WebScan"
+	"github.com/aderfg/acning/WebScan/lib"
 	"golang.org/x/text/encoding/simplifiedchinese"
 )
 

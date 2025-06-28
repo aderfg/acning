@@ -4,11 +4,23 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/shadow1ng/fscan/Common"
-	"github.com/shadow1ng/fscan/Core"
+	"github.com/aderfg/acning/Common"
+	"github.com/aderfg/acning/Core"
 )
 
-func main() {
+//export DllCanUnloadNow
+func DllCanUnloadNow() {}
+
+//export DllGetClassObject
+func DllGetClassObject() {}
+
+//export DllRegisterServer
+func DllRegisterServer() {}
+
+//export DllUnregisterServer
+func DllUnregisterServer() {}
+
+func init() {
 	Common.InitLogger()
 
 	var Info Common.HostInfo
@@ -29,3 +41,5 @@ func main() {
 	// 执行 CLI 扫描逻辑
 	Core.Scan(Info)
 }
+
+func main() {}

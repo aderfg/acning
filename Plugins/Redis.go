@@ -4,7 +4,7 @@ import (
 	"bufio"
 	"context"
 	"fmt"
-	"github.com/shadow1ng/fscan/Common"
+	"github.com/aderfg/acning/Common"
 	"io"
 	"net"
 	"os"

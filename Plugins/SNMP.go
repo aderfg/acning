@@ -2,8 +2,8 @@ package Plugins
 
 import (
 	"fmt"
+	"github.com/aderfg/acning/Common"
 	"github.com/gosnmp/gosnmp"
-	"github.com/shadow1ng/fscan/Common"
 	"strconv"
 	"strings"
 	"time"

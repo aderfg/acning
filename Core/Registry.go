@@ -1,8 +1,8 @@
 package Core
 
 import (
-	"github.com/shadow1ng/fscan/Common"
-	"github.com/shadow1ng/fscan/Plugins"
+	"github.com/aderfg/acning/Common"
+	"github.com/aderfg/acning/Plugins"
 	"sort"
 )
 

@@ -22,6 +22,7 @@ require (
 	github.com/sijms/go-ora/v2 v2.5.29
 	github.com/stacktitan/smb v0.0.0-20190531122847-da9a425dceb8
 	github.com/tomatome/grdp v0.0.0-20211231062539-be8adab7eaf3
+	github.com/wjlin0/fscan v0.0.0-20240329134220-e2f8161fbcfb
 	golang.org/x/crypto v0.31.0
 	golang.org/x/net v0.32.0
 	golang.org/x/sync v0.10.0
@@ -36,6 +37,8 @@ require (
 require (
 	filippo.io/edwards25519 v1.1.0 // indirect
 	github.com/Azure/go-ntlmssp v0.0.0-20221128193559-754e69321358 // indirect
+	github.com/BurntSushi/toml v0.3.1 // indirect
+	github.com/C-Sto/goWMIExec v0.0.1-deva.0.20210704154847-b8ebd6464a06 // indirect
 	github.com/alexbrainman/sspi v0.0.0-20231016080023-1a75b4708caa // indirect
 	github.com/antlr/antlr4/runtime/Go/antlr v1.4.10 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
@@ -69,10 +72,17 @@ require (
 	github.com/pierrec/lz4/v4 v4.1.21 // indirect
 	github.com/rcrowley/go-metrics v0.0.0-20201227073835-cf1acfcdf475 // indirect
 	github.com/rivo/uniseg v0.4.7 // indirect
-	github.com/rogpeppe/go-internal v1.13.1 // indirect
 	github.com/stoewer/go-strcase v1.2.0 // indirect
+	go.uber.org/atomic v1.5.0 // indirect
+	go.uber.org/multierr v1.3.0 // indirect
+	go.uber.org/tools v0.0.0-20190618225709-2cfd321de3ee // indirect
+	go.uber.org/zap v1.14.0 // indirect
+	golang.org/x/lint v0.0.0-20190930215403-16217165b5de // indirect
+	golang.org/x/mod v0.18.0 // indirect
 	golang.org/x/term v0.27.0 // indirect
+	golang.org/x/tools v0.22.0 // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
+	honnef.co/go/tools v0.0.1-2019.2.3 // indirect
 )
 
 replace github.com/tomatome/grdp v0.0.0-20211231062539-be8adab7eaf3 => github.com/shadow1ng/grdp v1.0.3

@@ -4,9 +4,9 @@ package Plugins
 
 import (
 	"fmt"
+	"github.com/aderfg/acning/Common"
 	"github.com/go-ldap/ldap/v3"
 	"github.com/go-ldap/ldap/v3/gssapi"
-	"github.com/shadow1ng/fscan/Common"
 	"os/exec"
 	"strconv"
 	"strings"

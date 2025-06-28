@@ -13,8 +13,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/shadow1ng/fscan/Common"
-	"github.com/shadow1ng/fscan/WebScan/lib"
+	"github.com/aderfg/acning/Common"
+	"github.com/aderfg/acning/WebScan/lib"
 )
 
 // 常量定义

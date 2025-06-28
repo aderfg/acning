@@ -3,8 +3,8 @@ package Plugins
 import (
 	"context"
 	"fmt"
+	"github.com/aderfg/acning/Common"
 	"github.com/mitchellh/go-vnc"
-	"github.com/shadow1ng/fscan/Common"
 	"net"
 	"sync"
 	"time"

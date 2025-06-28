@@ -6,7 +6,7 @@ import (
 	"embed"
 	"errors"
 	"fmt"
-	"github.com/shadow1ng/fscan/Common"
+	"github.com/aderfg/acning/Common"
 	"golang.org/x/net/proxy"
 	"gopkg.in/yaml.v2"
 	"net"

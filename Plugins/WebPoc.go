@@ -1,8 +1,8 @@
 package Plugins
 
 import (
-	"github.com/shadow1ng/fscan/Common"
-	"github.com/shadow1ng/fscan/WebScan"
+	"github.com/aderfg/acning/Common"
+	"github.com/aderfg/acning/WebScan"
 )
 
 // WebPoc 直接执行Web漏洞扫描

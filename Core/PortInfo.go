@@ -2,7 +2,7 @@ package Core
 
 import (
 	"fmt"
-	"github.com/shadow1ng/fscan/Common"
+	"github.com/aderfg/acning/Common"
 	"io"
 	"net"
 	"strings"
@@ -20,10 +20,10 @@ type ServiceInfo struct {
 // Result 定义单次探测的结果
 type Result struct {
 	Service Service           // 识别出的服务信息
-	Banner  string           // 服务横幅
+	Banner  string            // 服务横幅
 	Extras  map[string]string // 额外信息
-	Send    []byte           // 发送的探测数据
-	Recv    []byte           // 接收到的响应数据
+	Send    []byte            // 发送的探测数据
+	Recv    []byte            // 接收到的响应数据
 }
 
 // Service 定义服务的基本信息
@@ -34,20 +34,20 @@ type Service struct {
 
 // Info 定义单个端口探测的上下文信息
 type Info struct {
-	Address string    // 目标IP地址
-	Port    int       // 目标端口
-	Conn    net.Conn  // 网络连接
-	Result  Result    // 探测结果
-	Found   bool      // 是否成功识别服务
+	Address string   // 目标IP地址
+	Port    int      // 目标端口
+	Conn    net.Conn // 网络连接
+	Result  Result   // 探测结果
+	Found   bool     // 是否成功识别服务
 }
 
 // PortInfoScanner 定义端口服务识别器
 type PortInfoScanner struct {
 	Address string        // 目标IP地址
-	Port    int          // 目标端口
-	Conn    net.Conn     // 网络连接
+	Port    int           // 目标端口
+	Conn    net.Conn      // 网络连接
 	Timeout time.Duration // 超时时间
-	info    *Info        // 探测上下文
+	info    *Info         // 探测上下文
 }
 
 // 预定义的基础探测器
@@ -60,7 +60,7 @@ var (
 func NewPortInfoScanner(addr string, port int, conn net.Conn, timeout time.Duration) *PortInfoScanner {
 	return &PortInfoScanner{
 		Address: addr,
-		Port:    port, 
+		Port:    port,
 		Conn:    conn,
 		Timeout: timeout,
 		info: &Info{
@@ -163,7 +163,7 @@ func (i *Info) processPortMapProbes(usedProbes map[string]struct{}) bool {
 	// 遍历端口专用探测器
 	for _, name := range Common.PortMap[i.Port] {
 		Common.LogDebug(fmt.Sprintf("尝试端口专用探测器: %s", name))
-		usedProbes[name] = struct{}{} 
+		usedProbes[name] = struct{}{}
 		probe := v.ProbesMapKName[name]
 
 		// 解码探测数据

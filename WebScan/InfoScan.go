@@ -3,8 +3,8 @@ package WebScan
 import (
 	"crypto/md5"
 	"fmt"
-	"github.com/shadow1ng/fscan/Common"
-	"github.com/shadow1ng/fscan/WebScan/info"
+	"github.com/aderfg/acning/Common"
+	"github.com/aderfg/acning/WebScan/info"
 	"regexp"
 )
 

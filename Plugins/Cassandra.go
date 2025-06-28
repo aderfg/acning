@@ -3,8 +3,8 @@ package Plugins
 import (
 	"context"
 	"fmt"
+	"github.com/aderfg/acning/Common"
 	"github.com/gocql/gocql"
-	"github.com/shadow1ng/fscan/Common"
 	"strconv"
 	"strings"
 	"sync"

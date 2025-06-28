@@ -4,7 +4,7 @@ package Plugins
 
 import (
 	"fmt"
-	"github.com/shadow1ng/fscan/Common"
+	"github.com/aderfg/acning/Common"
 	"golang.org/x/sys/windows"
 	"os"
 	"path/filepath"
