@@ -1,4 +1,4 @@
-module github.com/shadow1ng/fscan
+module github.com/aderfg/acning
 
 go 1.20
 
